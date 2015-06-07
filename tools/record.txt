@@ -1,0 +1,11 @@
+vim:plugin
+python completion:pydiction
+for python's newer import module as X ,this is not supported by default.however we can use pythoncomplete.vim's Omnicompletition by typing <C-x><C-o>.we can also use the omni-completion to complete other thing that aren't in complete-dictionary,such as variables:
+i = 3
+i.b<Ctrl-x><Ctrl-o> #expands to:i.bit_length(
+
+
+NERDTree:
+it presents the filesystem to us in the form of a tree which we can manipulate with the keyborad and/or mouse.
+use:
+:NERDTree #can get a filesystem tree whose root is current directory

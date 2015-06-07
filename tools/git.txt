@@ -1,0 +1,7 @@
+how to create a new repository on the command line:
+
+git init
+git add READM.md
+git commit -m "first commit"
+git remote add origin git@github.com:yuzhile/record.git
+git push -u origin master
